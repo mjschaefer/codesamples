@@ -1,0 +1,140 @@
+@media screen {
+    h1 {
+        display: block;
+        margin: 0px;
+        padding: 0px;
+
+        padding-left: 15px;
+        margin-bottom: 10px;
+
+        font-size: 24px;
+
+        overflow: hidden;
+
+        background: #999;  
+        background: -moz-linear-gradient(top, #999, #666);  
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#999), to(#666));  
+
+        -moz-box-shadow: 0 0 15px #888;
+        -webkit-box-shadow: 0 0 15px#888;
+        box-shadow: 0 0 15px #888;
+        
+        color: white;
+
+        text-shadow: 0px 0px 6px #333;
+    }
+
+    h2 {
+    	font-size: 20px;
+    	margin: 0;
+    	padding: 0;
+    }
+
+    h3 {
+    	font-size: 14px;
+    	margin: 0;
+    	padding: 0;	
+    	font-weight: normal;
+    }
+
+    h4 {
+    	font-size: 14px;
+    	margin: 0;
+    	padding: 0;		
+    	font-weight: normal;
+    }
+
+    #wrapper_main img {
+    	float: left;
+    }
+
+    .content {
+    	padding-left: 25px;
+    	padding-right: 25px;
+
+    	font-size: 14px;
+    }
+
+    #dropdown {
+    	width: 610px;
+    	margin-left: -305px;
+    }
+
+    #page_title h5 {
+        font-weight: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #page_title a {
+        margin-left: 10px;
+        color: green;
+    }
+
+    #page_title a.selected {
+        color: black;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    #page_title a.selected:hover {
+        color: black;
+    }
+
+    #page_title a:hover {
+        color: #666;
+    }
+
+    #h5_container {
+        float: right;
+        display: inline;
+        overflow: hidden;
+    }
+
+    #h5_container h5 {
+        float: right;
+        clear: both;
+    }
+}
+
+@media print {
+    html {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+
+    footer {
+        display: none;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #wrapper_main {
+        margin: 0;
+        padding: 0;
+        width: auto;
+        border: 0;
+
+        font-size: 12px;
+    }
+
+    #wrapper_main img {
+        float: left;
+        margin-right: 10px;
+    }
+
+    .action_button {
+        display: none;
+    }
+}

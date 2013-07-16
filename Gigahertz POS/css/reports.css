@@ -1,0 +1,197 @@
+@media screen {
+    h1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    h2 {
+    	font-size: 16px;
+    	margin: 0;
+    	padding: 0;
+    }
+
+    h3 {
+    	font-size: 14px;
+    	margin: 0;
+    	padding: 0;
+        display: inline;
+        margin-left: 20px;
+    }
+
+    h4 {
+    	font-size: 14px;
+    	margin: 0;
+    	padding: 0;		
+    	font-weight: normal;
+    }
+
+    #wrapper_main img {
+    	float: left;
+        clear: both;
+    }
+
+    .content {
+    	padding-left: 25px;
+    	padding-right: 25px;
+
+    	font-size: 14px;
+    }
+
+    #dropdown {
+    	width: 610px;
+    	margin-left: -305px;
+    }
+
+    #data_table tr a {
+        width: 60px;
+        color: #333;
+    }
+
+    #page_title h5 {
+        font-weight: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #page_title a {
+        margin-left: 10px;
+        color: green;
+    }
+
+    #page_title a.selected {
+        color: black;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    #page_title a.selected:hover {
+        color: black;
+    }
+
+    #page_title a:hover {
+        color: #666;
+    }
+
+    #h5_container {
+        float: right;
+        display: inline;
+        overflow: hidden;
+    }
+
+    #h5_container h5 {
+        float: right;
+        clear: both;
+    }
+
+    .col_acct {
+        border-right: 1px solid #aaa;      
+        width: 60px;  
+    }
+
+    .title_acct {
+        width: 60px;
+    }
+
+    .col_total {
+        border-right: 1px solid black;
+    }
+}
+
+@media print {
+    html {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    h2 {        
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+    }
+
+    h3 {
+        font-size: 14px;
+        margin: 0;
+        padding: 0;    
+        display: inline;   
+        margin-left: 20px; 
+    }
+
+    footer {
+        display: none;
+    }
+    .table_break {
+        page-break-before: always;
+    }
+
+    #wrapper_table {
+        border: 0;
+        width: 100%;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #wrapper_main {
+        margin: 0;
+        padding: 0;
+        width: auto;
+        border: 0;
+
+        font-size: 12px;
+    }
+
+    .action_button {
+        display: none;
+    }
+
+    #page_title {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 25px;
+    }
+
+    #h5_container {
+        display: none;
+    }
+
+    .data_table th {
+        color: black;
+    }
+
+    .tr_pagebreak {
+        page-break-after: always;
+    }
+
+    .col_total {
+        border-right: 1px solid black;
+    }
+
+    .col_odd {
+        background-color: #aaa;
+    }
+
+    .col_acct {
+        border-right: 1px solid #aaa;
+        width: 60px;
+    }
+
+    .title_acct {
+        width: 60px;
+    }
+
+    td {
+        border-bottom: 1px solid #aaa;
+    }
+}

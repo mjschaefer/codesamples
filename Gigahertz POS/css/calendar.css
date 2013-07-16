@@ -1,0 +1,70 @@
+.calendar {
+    padding-top: 2px;
+    vertical-align: text-top;
+}
+
+.input_short {
+    width: 80px;
+}
+
+#calTab {
+    text-align: center;
+    font-size: 12px;
+    background-color: #eee;
+}
+
+.calTH {
+    text-align: center;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+
+.dateLink {
+    text-decoration: none;
+    display: block;
+
+    color: #444;
+
+    padding: 3px;
+    margin: 0;
+}
+
+.dateLink:hover {
+    background-color: #777;
+    color: #ccc;
+}
+
+.calTD {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    min-width: 0;
+}
+
+#today {
+    background-color: #777;
+    color: #ccc;
+}
+
+#cal {
+    position: absolute;
+
+    display: hidden;
+
+    font-size: 12px;
+
+    background-color: #ccc;
+    background-color: rgba(150,150,150,0.95);
+    
+    border: 1px solid #aaa;
+    border-top: 5px solid gray;
+
+    -moz-box-shadow: 0 0 15px #888;
+    -webkit-box-shadow: 0 0 15px#888;
+    box-shadow: 0 0 15px #888;
+}
+
+#cal td {
+    padding-bottom: 0;
+}

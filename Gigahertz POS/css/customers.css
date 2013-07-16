@@ -1,0 +1,58 @@
+/* VIEWING/EDITING A CUSTOMER */
+.view_wrappers {
+    padding: 5px;
+    display: block;
+    margin: 0px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+
+#pagination {
+    float: right;
+    clear: both;
+}
+
+.view_wrappers h3 {
+    margin: 0px;
+    margin-top: 15px;
+    font-size: 14px;
+    display: normal;
+}
+
+#view_cust_info {
+    font-size: 12px;
+    width: 370px;
+}
+
+#customer_dialog img {
+    float: left;
+}
+
+.view_wrappers h3 {
+    margin: 0px;
+    margin-top: 5px;
+    font-size: 14px;
+    display: normal;
+    padding-bottom: 5px;
+}
+
+.view_wrappers h5 {
+    margin: 0px;
+}
+
+.view_wrappers img {
+    float: left;
+    display: block;
+    padding-right: 15px;
+}
+
+.view_wrappers p {
+    margin: 0;
+    padding-left: 15px;
+}
+
+.view_wrappers hr {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+}

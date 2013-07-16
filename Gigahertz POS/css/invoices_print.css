@@ -1,0 +1,375 @@
+@media screen {
+	html {
+		padding-top: 55px;
+		padding-bottom: 150px;
+	}
+
+	body {
+		font-family: sans-serif;
+
+	    background: #ddd;  
+	    background: -moz-linear-gradient(top, #ddd, #eee);  
+	    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ddd), to(#eee));  
+
+		margin: 0;
+		padding: 0;
+	}
+
+	th {
+		text-align: left;
+	}
+
+	h1 {
+		display: inline;
+		font-size: 22pt;
+		font-weight: normal;
+	}
+
+	h2 {
+		margin: 0;
+		font-size: 8pt;
+		font-weight: normal;
+	}
+
+	h3 {
+		float: left;
+		display: inline;
+		margin: 0;
+		padding: 0;
+	}
+
+	table {
+		font-size: 8pt;
+		margin-top: 25px;
+
+		border-collapse: collapse;
+
+		text-align: right;
+	}
+
+	td {
+		padding: 3px;
+		padding-left: 5px;
+		min-width: 60px;
+	}
+
+	th {
+		padding: 5px;
+		text-align: right;
+	}
+
+	#signature h2 {
+		float: right;
+		
+		margin-top: 45px;
+		width: 250px;
+		border-top: 1px solid #999;
+	}
+
+	.agreement {
+		font-size: 7pt;
+
+		text-align: left;
+		font-style: italic;
+		font-weight: normal;
+
+		vertical-align: top;
+
+		text-align: justify;
+
+		padding-left: 50px;
+
+		color: #999;
+	}
+
+	.totals {
+		font-weight: bold;
+	}
+
+	.description {
+		text-align: left;
+		font-style: italic;
+
+		color: #999;
+	}
+
+	.description td {
+		padding-left: 15px;
+		padding-top: 0px;
+	}
+
+	.item_title {
+		text-align: left;
+	}
+
+	#wrapper_main {
+		width: 612px;
+		min-height: 792px;
+
+		margin: 0 auto;
+		padding: 45px;
+
+		background-color: white;
+
+	    -moz-box-shadow: 0 0 15px #666;
+	    -webkit-box-shadow: 0 0 15px#666;
+	    box-shadow: 0 0 15px #666;
+	}
+
+	#info_company {	
+		float: right;
+		text-align: right;
+		font-size: 8pt;
+	}
+
+	#header {
+		width: 100%;
+
+		position: fixed;
+		left: 0;
+		top: 0;
+
+		display: inline-block;
+
+	    background: #999;  
+	    background: -moz-linear-gradient(top, #999, #666);  
+	    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#999), to(#666));  
+
+	    -moz-box-shadow: 0 0 15px #888;
+	    -webkit-box-shadow: 0 0 15px#888;
+	    box-shadow: 0 0 15px #888;
+	}
+
+	#header_wrapper {
+		margin: 5px;
+		overflow: hidden;
+	}
+
+	#button_print {
+		float: right;
+
+	    padding: 25px;
+	    padding-top: 5px;
+	    padding-bottom: 5px;
+
+	    background-color: green;
+
+	    color: white;
+	    font-weight: bold;
+	    text-align: center;
+
+	    text-shadow: 2px 2px 2px #333;
+
+	    -moz-border-radius: 5px 5px 5px 5px;  
+	    -webkit-border-radius: 5px 5px 5px 5px;  
+	    border-radius: 5px 5px 5px 5px;  
+
+	    -moz-box-shadow: 0 0 15px #888;
+	    -webkit-box-shadow: 0 0 15px#888;
+	    box-shadow: 0 0 15px #888;
+
+	    background: -moz-linear-gradient(top, #17a500, #0f6d0);  
+	    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#17a500), to(#0f6d00));    
+
+	    border: 1px solid green;
+
+	    text-decoration: none;
+	}
+
+	#button_print:hover {
+	    background: -moz-linear-gradient(top, #0f6d00, #17a500);  
+	    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0f6d00), to(#17a500));
+
+	    -moz-box-shadow: 0 0 15px #666;
+	    -webkit-box-shadow: 0 0 15px#666;
+	    box-shadow: 0 0 15px #666;
+	}
+
+	#client_information {
+		font-size: 8pt;
+		font-weight: bold;
+	}
+
+	#table_header {
+		border: 1px solid #ccc;
+	}
+
+	#warning {		
+		margin: 5px;
+		color: white;
+
+    	text-shadow: 0px 0px 6px #333;
+	}
+
+	#referral {
+		margin-top: 50px;
+		border-top: 1px gray dashed;
+		color: gray;
+		padding: 5px;
+		padding-bottom: 0px;
+		font-size: 12px;
+	}
+
+	#barcode_wrapper {
+		float: right;
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.barcode {
+		font-family: 'Free 3 of 9 Extended';
+		font-size: 32pt;
+		display: block;
+	}
+
+	.barcode_under {
+		display: block;
+	}
+
+	#referral_text_wrapper {
+		width: 500px;
+		float: left;
+	}
+}
+
+@media print {
+	body {
+		font-family: sans-serif;
+	}
+
+	#header {
+		display: none;
+	}
+
+	th {
+		text-align: left;
+	}
+
+	h1 {
+		display: inline;
+		font-size: 22pt;
+		font-weight: normal;
+	}
+
+	h2 {
+		margin: 0;
+		font-size: 8pt;
+		font-weight: normal;
+	}
+
+	h3 {
+		float: left;
+		display: inline;
+		margin: 0;
+		padding: 0;
+	}
+
+	table {
+		font-size: 9pt;
+		margin-top: 25px;
+
+		border-collapse: collapse;
+
+		text-align: right;
+	}
+
+	td {
+		padding: 3px;
+		padding-left: 5px;
+		min-width: 60px;
+	}
+
+	th {
+		padding: 5px;
+		text-align: right;
+	}
+
+	.description {
+		text-align: left;
+		font-style: italic;
+
+		color: #999;
+	}
+
+	.description td {
+		padding-left: 15px;
+		padding-top: 0px;
+	}
+
+	.item_title {
+		text-align: left;
+	}
+
+	td .item_title {		
+		font-size: 6pt;
+	}
+
+	#info_company {	
+		float: right;
+		text-align: right;
+		font-size: 8pt;
+	}
+
+	#client_information {
+		font-size: 8pt;
+		font-weight: bold;
+	}
+
+	#table_header {
+		border: 1px solid #ccc;
+	}
+
+	#signature h2 {
+		float: right;
+		
+		margin-top: 45px;
+		width: 250px;
+		border-top: 1px solid #999;
+	}
+
+	.agreement {
+		font-size: 7pt;
+
+		text-align: left;
+		font-style: italic;
+		font-weight: normal;
+
+		vertical-align: top;
+
+		text-align: justify;
+
+		padding-left: 50px;
+
+		color: #999;
+	}
+
+	#referral {
+		margin-top: 50px;
+		border-top: 1px gray dashed;
+		color: gray;
+		padding: 5px;
+		padding-bottom: 0px;
+		font-size: 12px;
+	}
+
+	#barcode_wrapper {
+		float: right;
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.barcode {
+		font-family: 'Free 3 of 9 Extended';
+		font-size: 32pt;
+		display: block;
+	}
+
+	.barcode_under {
+		display: block;
+	}
+
+	#referral_text_wrapper {
+		width: 500px;
+		float: left;
+	}
+}

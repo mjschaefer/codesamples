@@ -1,0 +1,140 @@
+@media screen {
+    .chart_wrapper_whole {
+        float: left;
+        margin: 18px;
+    }
+
+    .chart_nav_wrapper {   
+        text-align: right;
+        margin-bottom: 10px;
+             
+        background: #999;  
+        background: -moz-linear-gradient(top, #999, #666);  
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#999), to(#666)); 
+    }
+
+    .chart_nav_wrapper select {
+        margin: 5px;
+    }
+
+    .chart {
+    	width: 370px;
+    	height: 250px;	
+    }
+
+    .chart_wide {
+        width: 780px;
+    }
+    
+    .chart_short {
+        
+    }
+
+    .chart_wrapper h2 {
+    	color: white;
+    	text-align: center;
+    	text-shadow: #666 2px 2px 3px;
+    }
+
+    .spinner {
+    	width: 370px;
+    	padding-bottom: 50px;
+        margin: 0 auto;
+    }
+
+    #wrapper_main {
+    	overflow: hidden;
+    }
+
+    .jqplot-data-label {
+    	color: white;
+    	font-weight: bold;
+    	text-shadow: #6374AB 1px 1px 2px;
+    }
+
+    #page_title h5 {
+        font-weight: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #page_title a {
+        margin-left: 10px;
+        color: green;
+    }
+
+    #page_title a.selected {
+        color: black;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    #page_title a.selected:hover {
+        color: black;
+    }
+
+    #page_title a:hover {
+        color: #666;
+    }
+
+    #h5_container {
+        float: right;
+        display: inline;
+        overflow: hidden;
+    }
+
+    #h5_container h5 {
+        float: right;
+        clear: both;
+    }
+
+    #chart_3 {
+        width: 100%;
+    }
+
+    #info {
+        display: none;
+    }
+
+    #data_table {
+        margin-top: 5px;
+    }
+}
+
+@media print {
+    footer {
+        display: none;
+    }
+    .chart_wrapper_whole {
+        float: left;
+        margin: 18px;
+    }
+
+    #wrapper_main {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #page_title {
+        display: none;
+    }
+
+    .chart {
+        width: 370px;
+        height: 250px;  
+    }
+
+    .chart_wide {
+        width: 780px;
+    }
+
+    #data_table th {
+        color: black;
+        border-bottom: 1px solid gray;
+    }
+}

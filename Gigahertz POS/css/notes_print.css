@@ -1,0 +1,439 @@
+@media screen {
+	html {
+		padding-top: 55px;
+		padding-bottom: 150px;
+	}
+
+	#wrapper_main {
+		overflow: hidden;
+	}
+
+	body {
+		font-family: sans-serif;
+
+	    background: #ddd;  
+	    background: -moz-linear-gradient(top, #ddd, #eee);  
+	    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ddd), to(#eee));
+	}
+
+	th {
+		text-align: left;
+	}
+
+	h1 {
+		display: inline;
+		font-size: 14pt;
+		font-weight: normal;
+		float: right;
+	}
+
+	h2 {
+		display: block;
+		margin: 0;
+		font-size: 8pt;
+		font-weight: normal;
+		float: right;
+	}
+
+	h3 {
+		float: left;
+		display: inline;
+		margin: 0;
+		padding: 0;
+	}
+
+	table {
+		font-size: 8pt;
+
+		border-collapse: collapse;
+
+		text-align: left;
+	}
+
+	td {
+		padding: 3px;
+		padding-left: 5px;
+		min-width: 60px;
+	}
+
+	#cust_agreement {
+		page-break-before: always;
+	}
+
+	.header {
+		display: block;
+		font-weight: bold;
+		font-size: 16px;
+
+		padding: 0;
+		color: #999;
+	}
+
+	.time {
+		color: #333;
+		margin-bottom: 10px;
+	}
+
+	.info {
+		display: inline-block;
+	}
+
+	th {
+		padding: 5px;
+		text-align: right;
+	}
+
+	hr {
+		border: 0;
+		border-top: 1px solid #ccc;
+	}
+
+	.dashed {
+		border-top: 1px dashed #ccc;
+	}
+
+	#signature h2 {
+		float: right;
+		
+		margin-top: 45px;
+		border-top: 1px solid #999;
+	}
+
+	#sig {
+		width: 350px;
+		border-top: 1px solid #666;
+	}
+
+	#date {
+		width: 125px;
+		margin-left: 10px;
+		border-top: 1px solid #666;
+	}
+
+	.totals {
+		font-weight: bold;
+	}
+
+	.description {
+		text-align: left;
+		font-style: italic;
+
+		color: #999;
+	}
+
+	.description td {
+		padding-left: 15px;
+		padding-top: 0px;
+	}
+
+	.item_title {
+		font-weight: bold;
+	}
+
+	#wrapper_main {
+		width: 612px;
+		min-height: 792px;
+
+		margin: 0 auto;
+		padding: 45px;
+
+		background-color: white;
+
+	    -moz-box-shadow: 0 0 15px #666;
+	    -webkit-box-shadow: 0 0 15px#666;
+	    box-shadow: 0 0 15px #666;
+	}
+
+	#info_company {	
+		float: right;
+		text-align: right;
+		font-size: 8pt;
+		overflow: hidden;
+	}
+
+	#header {
+		width: 100%;
+
+		position: fixed;
+		left: 0;
+		top: 0;
+
+		display: inline-block;
+
+	    background: #999;  
+	    background: -moz-linear-gradient(top, #999, #666);  
+	    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#999), to(#666));  
+
+	    -moz-box-shadow: 0 0 15px #888;
+	    -webkit-box-shadow: 0 0 15px#888;
+	    box-shadow: 0 0 15px #888;
+	}
+
+	#header_wrapper {
+		margin: 5px;
+		overflow: hidden;
+	}
+
+	#button_print {
+		float: right;
+
+	    padding: 25px;
+	    padding-top: 5px;
+	    padding-bottom: 5px;
+
+	    background-color: green;
+
+	    color: white;
+	    font-weight: bold;
+	    text-align: center;
+
+	    text-shadow: 2px 2px 2px #333;
+
+	    -moz-border-radius: 5px 5px 5px 5px;  
+	    -webkit-border-radius: 5px 5px 5px 5px;  
+	    border-radius: 5px 5px 5px 5px;  
+
+	    -moz-box-shadow: 0 0 15px #888;
+	    -webkit-box-shadow: 0 0 15px#888;
+	    box-shadow: 0 0 15px #888;
+
+	    background: -moz-linear-gradient(top, #17a500, #0f6d0);  
+	    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#17a500), to(#0f6d00));    
+
+	    border: 1px solid green;
+
+	    text-decoration: none;
+	}
+
+	#button_print:hover {
+	    background: -moz-linear-gradient(top, #0f6d00, #17a500);  
+	    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0f6d00), to(#17a500));
+
+	    -moz-box-shadow: 0 0 15px #666;
+	    -webkit-box-shadow: 0 0 15px#666;
+	    box-shadow: 0 0 15px #666;
+	}
+
+	#client_information {
+		font-size: 8pt;
+		font-weight: bold;
+
+		float: left;
+		margin-left: 6px;
+	}
+
+	#computer_information {
+		font-size: 8pt;
+		font-weight: normal;
+
+		float: right;
+	}
+
+	#table_header {
+		border: 1px solid #ccc;
+	}
+
+	#warning {		
+		margin: 5px;
+		color: white;
+
+    	text-shadow: 0px 0px 6px #333;
+	}
+
+	#top {
+		width: 320px;
+		overflow: hidden;
+	}
+
+	.agreement {
+		font-size: 10px;
+
+		text-align: left;
+		font-weight: normal;
+
+		vertical-align: top;
+
+		text-align: justify;
+
+		color: #999;
+	}
+}
+
+@media print {	
+	html {
+		padding: 0;
+		margin: 0;
+	}
+
+	body {
+		padding-top: 35px;
+		font-family: sans-serif;
+	}
+
+	#wrapper_main {
+		margin: 0;
+		padding: 0;
+	}
+
+	#header {
+		display: none;
+	}
+
+	.header {
+		display: block;
+		font-weight: bold;
+		font-size: 16px;
+
+		padding: 0;
+		color: #999;
+	}
+
+	.time {
+		color: #333;
+		margin-bottom: 10px;
+	}
+
+	th {
+		text-align: left;
+	}
+
+	h1 {
+		display: inline;
+		font-size: 14pt;
+		font-weight: normal;
+		float: right;
+	}
+
+	h2 {
+		display: block;
+		margin: 0;
+		font-size: 8pt;
+		font-weight: normal;
+		float: right;
+	}
+
+	h3 {
+		float: left;
+		display: inline;
+		margin: 0;
+		padding: 0;
+	}
+
+	table {
+		font-size: 8pt;
+		margin-top: 25px;
+
+		border-collapse: collapse;
+
+		text-align: left;
+	}
+
+	td {
+		padding: 3px;
+		padding-left: 5px;
+		min-width: 60px;
+	}
+
+	th {
+		padding: 5px;
+		text-align: right;
+	}
+
+	hr {
+		border: 0;
+		border-top: 1px solid #ccc;
+	}
+
+	.dashed {
+		border-top: 1px dashed #ccc;
+	}
+	
+	.description {
+		text-align: left;
+		font-style: italic;
+
+		color: #999;
+	}
+
+	.description td {
+		padding-left: 15px;
+		padding-top: 0px;
+	}
+
+	.item_title {
+		font-weight: bold;
+	}
+
+	#info_company {	
+		float: right;
+		text-align: right;
+		font-size: 8pt;
+	}
+
+	#client_information {
+		font-size: 8pt;
+		font-weight: bold;
+
+		float: left;
+		margin-left: 6px;
+	}
+
+	#computer_information {
+		font-size: 8pt;
+		font-weight: normal;
+
+		float: right;
+	}
+
+	#table_header {
+		border: 1px solid #ccc;
+	}
+
+	#top {
+		width: 320px;
+		overflow: hidden;
+	}
+
+	.agreement {
+		font-size: 10pt;
+
+		text-align: left;
+		font-weight: normal;
+
+		vertical-align: top;
+
+		text-align: justify;
+
+		color: #999;
+	}
+
+	#signature h2 {
+		float: right;
+		
+		margin-top: 45px;
+		border-top: 1px solid #999;
+	}
+
+	#sig {
+		width: 350px;
+		border-top: 1px solid #666;
+	}
+
+	#date {
+		width: 125px;
+		margin-left: 10px;
+		border-top: 1px solid #666;
+	}
+
+	#cust_agreement {
+		page-break-before: always;
+	}
+
+	input {
+		color: black;
+		font-weight: bold;
+		border: 0;
+		padding: 0;
+		background: none;
+	}
+}

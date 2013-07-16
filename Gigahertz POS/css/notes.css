@@ -1,0 +1,272 @@
+/* CREATION OF NEW NOTES */
+
+textarea {
+    width: 99%;
+}
+
+h1 {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+
+    padding-left: 15px;
+
+    font-size: 32px;
+
+    overflow: hidden;
+
+    background: #999;  
+    background: -moz-linear-gradient(top, #999, #666);  
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#999), to(#666));  
+
+    -moz-box-shadow: 0 0 15px #888;
+    -webkit-box-shadow: 0 0 15px#888;
+    box-shadow: 0 0 15px #888;
+    
+    color: white;
+
+    text-shadow: 0px 0px 6px #333;
+}
+
+h5 a {
+    margin-left: 15px;
+    color: green;
+}
+
+#new_computer img {
+    float: left;
+    display: block;
+}
+
+#new_computer input {
+    margin: 3px;
+    margin-top: 0px;
+}
+
+#wrapper_notes {
+    border-top: 1px solid gray;
+    margin-top: 5px;
+}
+
+#items_left {
+    /*width: 60%;
+    float: left;*/
+}
+
+#labor_to_perform {
+    height: 150px;
+    float: left;
+    padding-left: 5px;
+}
+
+.info_top {
+    float: left;
+    width: 400px;
+    font-size: 12px;
+}
+
+.wrappers {    
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.wrappers h3 {
+    margin: 0px;
+    margin-top: 15px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    font-size: 14px;
+    display: normal;
+}
+
+.notes {
+    /*border: 1px dashed black;*/
+    float: left;
+}
+
+
+#problems {
+    margin-right: 10px;
+}
+
+#notes {
+    width: 100%;
+}
+
+#dropdown {
+    padding: 15px;
+    width: 450px;
+    margin-left: -195px;
+}
+
+#dropdown2 {
+    padding: 15px;
+    width: 450px;
+    margin-left: -195px;
+}
+
+#service_search {
+    display: none; 
+    width: 365px; 
+    margin-left: 2px;
+    position: absolute;
+    top: 50px;
+    background-color: #444;
+    font-weight: normal;
+
+    z-index: 3000;
+
+    -moz-box-shadow: 0 0 15px #666;
+    -webkit-box-shadow: 0 0 15px#666;
+    box-shadow: 0 0 15px #666;
+}
+
+#service_search a {
+    display: block;
+    padding: 5px;
+    color: white;
+
+    font-size: 14px;
+
+    text-shadow: 2px 2px 2px #333;
+}
+
+#service_search a.service_selected {
+    background: #999;  
+    background: -moz-linear-gradient(top, #999, #666);  
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#999), to(#666));      
+}
+
+/*
+#service_search a:hover {
+    background: #999;  
+    background: -moz-linear-gradient(top, #999, #666);  
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#999), to(#666));  
+}*/
+
+
+/* END CREATION OF NEW NOTES */
+
+/* VIEWING/EDITING A NOTE */
+#notes_header {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.view_wrappers {
+    padding: 5px;
+    display: block;
+    margin: 0px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    overflow: hidden;
+}
+
+#dialog {
+}
+
+.added_notes {
+    margin-bottom: 20px;
+    padding-right: 15px;
+}
+
+#customer_dialog img {
+    float: left;
+}
+
+/* LISTING NOTES */
+
+#location_selector {
+    float: right;
+    display: block;
+    clear: both;
+}
+
+#note_status {
+    margin: 5px;
+}
+
+#status_flash {
+    display: inline-block;
+    max-width: 75px;
+}
+
+#spin {
+    padding-left: 20px;
+    padding-top: -35px;
+}
+
+#status_flash_success {
+    padding: 5px;
+
+    background-color: green;
+
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+    text-shadow: 2px 2px 2px #333;
+
+    -moz-border-radius: 5px 5px 5px 5px;  
+    -webkit-border-radius: 5px 5px 5px 5px;  
+    border-radius: 5px 5px 5px 5px;  
+
+    -moz-box-shadow: 0 0 15px #888;
+    -webkit-box-shadow: 0 0 15px#888;
+    box-shadow: 0 0 15px #888;
+
+    background: -moz-linear-gradient(top, #17a500, #0f6d0);  
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#17a500), to(#0f6d00));   
+
+    border: 1px solid green;
+}
+
+#status_flash_fail {
+    padding: 5px;
+
+    background-color: red;
+
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+    text-shadow: 2px 2px 2px #333;
+
+    -moz-border-radius: 5px 5px 5px 5px;  
+    -webkit-border-radius: 5px 5px 5px 5px;  
+    border-radius: 5px 5px 5px 5px;  
+
+    -moz-box-shadow: 0 0 15px #888;
+    -webkit-box-shadow: 0 0 15px#888;
+    box-shadow: 0 0 15px #888;
+
+    background: -moz-linear-gradient(top, #f00000, #b30000);  
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f00000), to(#b30000));   
+
+    border: 1px solid red;
+}
+
+#completed_paragraph {
+    padding: 15px;
+
+    background-color: green;
+
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+    text-shadow: 2px 2px 2px #333;
+
+    -moz-border-radius: 0px 0px 5px 5px;  
+    -webkit-border-radius: 0px 0px 5px 5px;  
+    border-radius: 0px 0px 5px 5px;  
+
+    -moz-box-shadow: 0 0 15px #888;
+    -webkit-box-shadow: 0 0 15px#888;
+    box-shadow: 0 0 15px #888;
+
+    background: -moz-linear-gradient(top, #17a500, #0f6d0);  
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#17a500), to(#0f6d00));   
+
+    border: 1px solid green;
+}
